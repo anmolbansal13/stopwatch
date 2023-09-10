@@ -1,0 +1,53 @@
+/* General Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+}
+body{
+    background: url(img/project-img.jpg) no-repeat center center/ cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    height: 33%;
+    /* background-color: white; */
+    border-radius: 30px;
+    /* box-shadow: 0 0 3px; */
+}
+#timer{
+    color: white;
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 35px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+button{
+    margin: 0 10px;
+    border: none;
+}
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    width: 50px;
+}
+#play {
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
